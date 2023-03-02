@@ -1,0 +1,328 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.pt1{
+    height: 110px;
+    background-color: rgb(248, 0, 50);
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.imglogo{
+    height: 110px;
+}
+
+/*fim da primeira divisão*/
+
+/*inicio da segunda divisão*/
+
+.pt2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.asterisco{
+ color: rgb(248, 0, 50);
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: rgb(102, 102, 102);
+    padding: none;
+    margin: none;
+    line-height: 16px;
+    margin-bottom: 24px;
+}
+
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(102, 102, 102);
+    max-width: 780px;
+    text-align: center;
+    font-weight: unset;
+
+}
+
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: unset;
+    margin-top: 0px;
+}
+
+.pt3{
+    display: flex;
+    flex-direction: column;
+
+}
+.nomecompleto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    border-bottom: 0px;
+
+}
+
+.nomecompletotxt{
+    width: 550px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.genero{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-top: 40px;
+    line-height: 0;
+
+}
+
+.genero2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(145, 143, 143);
+
+}
+
+.genero3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+.radio{
+    width: 20px;
+    height: 20px;
+    border: 2% solid rgb(51, 51, 51);
+
+}
+
+.nascimento{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+
+}
+
+.nascimentoobs{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(145, 143, 143);
+    line-height: 0.1;
+
+}
+
+.nascimento2{
+    width: 150px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 8px 8px 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(145, 143, 143);
+
+}
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(145, 143, 143);
+
+}
+
+.CPF{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+}
+
+.CPF2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(145, 143, 143);
+    margin-top: 5px;
+}
+
+.CPF3{
+    width: 200px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 8px 8px 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.CPFaviso{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(51, 51, 51);
+        margin: 15px;
+        margin-left: 0px;
+
+}
+
+.telefone{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+}
+
+.telefone2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(145, 143, 143);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.telefone3{
+    width: 200px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 8px 8px 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.msgwhatsapp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+}
+
+.celular{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.celular2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(145, 143, 143);
+    margin-bottom: 10px;
+
+}
+
+.celular3{
+    width: 200px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 8px 8px 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.email2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(145, 143, 143);
+    margin-bottom: 10px;
+}
+
+.email3{
+    width: 500px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 8px 8px 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.receberemail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.senha{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 10px;
+}
+
+.senha2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(145, 143, 143);
+    margin-bottom: 10px;
+
+}
+
+.senha3{
+    width: 350px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 8px 8px 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.partilhardados{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 500px;
+
+}
+
+.btcriarcadastro{
+    height: 60px;
+    width: 700px;
+    background-color:  rgb(248, 0, 50);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+.politica{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    max-width: 600px;
+    text-align: center;
+    margin: 30px;
+}
+
+a { 
+    color: currentColor;
+    font-weight: bold;
+
+ } 
