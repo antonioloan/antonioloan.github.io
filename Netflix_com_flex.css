@@ -1,0 +1,489 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+
+}
+
+a { 
+    color: currentColor;
+    font-style: unset;
+    text-decoration: none;
+
+ } 
+
+/* Inicio primeira divisão*/
+
+.language {
+    background-color: rgba(0, 0, 0, 0.356); 
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    }
+
+.btiniciarsessão{
+    background-color: red;
+    position: relative;
+    cursor: pointer;
+        width: 160px;
+        height: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        border-radius: 5px 5px 5px 5px;
+        margin-right: 70px;
+        margin-top: 30px;
+        margin-left: 30px;
+
+    }
+
+    .logo {
+        align-items: baseline;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 20px;
+        margin-left: 50px;
+        
+    }
+
+.btcomeçar{
+    background-color: red;
+        width: 200px;
+        height: 75px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        color: white;
+        outline: none;
+        cursor: pointer;
+        border-radius: 0px 0px 2px 2px;
+}
+.linha1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.email{
+    width: 600px;
+    height: 70px;
+font-family: Arial, Helvetica, sans-serif;
+border-color: grey 1px;
+top: 30px;
+}
+
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 25px;
+}
+
+.btemail-submit{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    border-top: none;
+}
+.parte1::before{
+    content: '';
+    background-image: url('background\ netflix.jpg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .35;
+
+
+
+
+}
+.parte1{
+    background-color: #000;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    border-bottom: 10px solid #222;
+
+}
+.texto1{
+    position: relative;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    line-height: 0.2;
+    
+}    
+
+.p1{
+    font-weight: 700;
+    font-size: 56px;
+    max-width: 740px;
+    text-align: center;
+    line-height: 1;
+}
+
+.p2{
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+}
+.p3{
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+}
+
+/* fim da primeira divisão */
+
+/*inicio da segunda divisão*/
+
+.parte2{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    max-width: 100%;
+    height: 600px;
+
+
+}
+
+
+.p4{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+font-size: 60px;
+border-bottom: none;
+
+}
+.p5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: unset;
+    border-top: none;
+}
+
+.gif1{
+    width: 800px;
+    margin-bottom: -30px;
+}
+
+/*fim da segunda divisão*/
+
+/*inicio da terceira divisão*/
+
+
+
+.parte3{
+    border-top: 10px solid #222;
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    height: 450px;
+    max-width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 10px solid #222;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.p6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    border-bottom: none;
+    max-width: 650px;
+}
+
+.p7{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: unset;
+    border-top: none;
+    max-width: 650px;
+
+}
+
+.gif2{
+    height: 400px;
+    margin-top: 30px;
+}
+
+
+/*final da terceira divisão*/
+
+/*inicio da quarta divisão*/
+
+
+.parte4{
+    border-top: 10px solid #222;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    height: 500px;
+    max-width: 100%;
+    padding: 80px;
+
+}
+
+.p8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    border-bottom: none;
+}
+
+.p9{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: unset;
+    border-top: none;
+    max-width: 600px;
+
+}
+
+.gif3{
+    height: 450px;
+    margin-top: 30px;
+}
+
+
+/*fim da quarta divisão*/
+
+/*inicio da quinta divisão*/
+
+.parte5{
+    border-top: 10px solid #222;
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    max-width: 100%;
+    height: 700px;
+
+
+}
+
+.p10{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    border-bottom: none;
+    max-width: 640px;
+}
+
+.p11{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: unset;
+    border-top: none;
+    max-width: 640px;
+
+}
+
+.imagem1{
+    height: 570px;
+    margin-top: 30px;
+}
+
+
+/*fim da quinta divisão*/
+
+/*inicio da sexta divisão*/
+
+
+.parte6{
+    background-color: #000000;
+    margin-bottom: 10px;
+    max-height: 1500px;
+    width: 100%;
+    border-top: 10px solid #222;
+
+}
+.conteudopt6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.faqpt6{
+    color: white;
+}
+
+.faqpt6 details summary {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 2px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    background-color: rgb(51, 51, 51);
+    width: 1000px;
+    height: 70px;
+    text-align: left;
+
+}
+
+.faqpt6 .perguntas p{
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    max-height: 2000px;
+    max-width: 950px;
+    background-color: rgb(51, 51, 51);
+    margin: none;
+    padding: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    padding-top: 0%;
+}
+
+
+.e-mail2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+.email2{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 700px;
+    height: 100px;
+}
+
+.p12{
+    font-family: Sans-serif, Arial, Helvetica;
+    color: white;
+    position: relative;
+    font-size: 60px; 
+    padding-top: 50px;
+    align-items: center;
+    }
+    .p13{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    
+    }
+
+    /*final da sexta divisão*/
+
+    /*inicio da setima divisão*/
+
+
+    .parte7{
+        background-color: #000000;
+        border-top: 5px;
+        padding: 50px;
+        color: rgb(109, 109, 109);
+        border-top: 10px solid #222;
+    }
+    .conteudopt7{
+        color: rgb(109, 109, 109);
+        font-size: 22px;
+        display: flex;
+        align-items: baseline;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: start;
+        
+    }
+    
+    .container0{
+        background-color: black;
+        color: rgb(109, 109, 109);
+        margin-left: 170px;
+        font-size: 22px;
+        display: flex;
+        align-items: baseline;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: start;
+    
+    }
+    
+    .container1{
+        width: 300px;
+        height: 400px;
+        background-color: black;
+        color: rgb(109, 109, 109);
+    }
+    
+    .container2{
+        width: 300px;
+        height: 400px;
+        background-color: black;
+        color: rgb(109, 109, 109);
+    }
+    
+    .container3{
+        width: 300px;
+        height: 400px;
+        background-color: black;
+        color: rgb(109, 109, 109);
+    }
+    
+    .language2 {
+        background-color: rgba(0, 0, 0, 0.356); 
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color:rgb(109, 109, 109);
+        width: 160px;
+        height: 45px;
+        text-align: center;
+        margin-left: 170px;
+        }
+    
+    .container4{
+        background-color: black;
+        color: rgb(109, 109, 109);
+        margin-left: 170px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: baseline;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: start;
+        padding-top: 20px;
+    }
